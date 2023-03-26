@@ -1,0 +1,105 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color:rgba(226, 222, 222, 0.726);
+}
+.box{
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top: 350px;
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 3px 0px 1px rgba(168, 167, 167, 0.2);
+}
+.top-header{
+    position: relative;
+    transform: translate(-50%);
+    left: 85px;
+    margin-top: 20px;
+}
+.container{
+    width: 350px;
+    position: relative;
+    left: 85px;    
+}
+.container input{
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+    margin-left: 40px;
+    margin-top: 15px;
+    padding: 0;
+    height: 40px;
+    width: 520px;
+    outline: none;
+    border-color:silver;
+    border: 0.1px solid;
+}
+header{
+    color: grey;
+    font-size: 30px;
+    display: flex;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+.bottom input{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.bottom label{
+    color: rgb(24, 207, 137);
+}
+.img{
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+    top: 150px;
+    width: 600px;
+}
+.right{
+    position: relative;
+    transform: translate(-50%);
+    left: 735px;
+    top: -20px;
+}
+.right a{
+    color: grey;
+}
+.bcenter{
+    position: relative;
+    transform: translate(-50%);
+    margin-left: 350px;
+    margin-top: 25px;
+}
+.bcenter a{
+    color: rgb(24, 207, 137);
+}
+.bcenter label{
+    color: grey;
+}
+.submit{
+    color: white;
+    font-size: 20px;
+    background: rgb(24, 207, 137);
+}
+.facebook{
+    position: relative;
+    transform: translate(-50%);
+    height: 25px;
+    width: 45px;
+    top: 55px;
+    left: 490px;
+}
+.twitter{
+    height: 30px;
+    position: relative;
+    transform: translate(-50%);
+    left: 490px;
+    top: 58px;
+}
